@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\Primeira API\\PrimeiraAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A26B004A-4883-41BE-A71D-8BFB79C4C7EB}|PrimeiraAPI\\PrimeiraAPI.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\primeira api\\primeiraapi\\primeiraapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26B004A-4883-41BE-A71D-8BFB79C4C7EB}|PrimeiraAPI\\PrimeiraAPI.csproj|solutionrelative:primeiraapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26B004A-4883-41BE-A71D-8BFB79C4C7EB}|PrimeiraAPI\\PrimeiraAPI.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\primeira api\\primeiraapi\\primeiraapi\\primeiraapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A26B004A-4883-41BE-A71D-8BFB79C4C7EB}|PrimeiraAPI\\PrimeiraAPI.csproj|solutionrelative:primeiraapi\\primeiraapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\Primeira API\\PrimeiraAPI\\PrimeiraAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "PrimeiraAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\Primeira API\\PrimeiraAPI\\PrimeiraAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "PrimeiraAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:27:02.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrimeiraAPI.http",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\Primeira API\\PrimeiraAPI\\PrimeiraAPI\\PrimeiraAPI.http",
+              "RelativeDocumentMoniker": "PrimeiraAPI\\PrimeiraAPI.http",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\Primeira API\\PrimeiraAPI\\PrimeiraAPI\\PrimeiraAPI.http",
+              "RelativeToolTip": "PrimeiraAPI\\PrimeiraAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-23T22:17:58.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UaJKRTXKO48=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\API_NET9\\API_NET9\\API_NET9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.2.0\\swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
