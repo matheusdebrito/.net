@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Program.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Program.cs",
-              "RelativeToolTip": "APICatalogo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Title": "produto.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\produto.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Models\\produto.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\produto.cs",
+              "RelativeToolTip": "APICatalogo\\Models\\produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T23:21:03.381Z",
+              "WhenOpened": "2025-01-23T23:48:31.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "APICatalogo\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
-              "RelativeToolTip": "APICatalogo\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-23T23:20:22.547Z",
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
+              "RelativeToolTip": "APICatalogo\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T23:46:26.764Z",
               "EditorCaption": ""
             }
           ]

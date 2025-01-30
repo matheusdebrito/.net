@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "produto.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\produto.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Models\\produto.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\produto.cs",
-              "RelativeToolTip": "APICatalogo\\Models\\produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
+              "RelativeToolTip": "APICatalogo\\Models\\Produto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T23:48:31.682Z",
+              "WhenOpened": "2025-01-28T21:11:41.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "APICatalogo\\Models\\Categoria.cs",
               "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
               "RelativeToolTip": "APICatalogo\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T23:46:26.764Z",
+              "WhenOpened": "2025-01-28T21:08:49.775Z",
               "EditorCaption": ""
             }
           ]
