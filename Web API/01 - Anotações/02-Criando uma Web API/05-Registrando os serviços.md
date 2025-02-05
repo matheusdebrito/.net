@@ -1,7 +1,7 @@
 Precisamos informar qual a string de conexão. Vamos inserir no arquivo appsettings.json
 Vamos incluir um sessão:
 ````c#
-"ConectionStrings":{
+"ConnectionStrings":{
     "DefaultConnection":"Server=localhost;DataBase=CatalogoDB;UiD=root;Pwd=P@$$w0rd18059104"
 },
 ````
