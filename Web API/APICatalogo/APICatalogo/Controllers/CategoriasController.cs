@@ -1,5 +1,7 @@
 ﻿using APICatalogo.Context;
+using APICatalogo.Filter;
 using APICatalogo.Models;
+using APICatalogo.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,23 +13,61 @@ namespace APICatalogo.Controllers
     public class CategoriasController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
+        private readonly ILogger _logger;
 
-        public CategoriasController(AppDbContext context)
+        public CategoriasController(AppDbContext context, IMeuServico meuServico, IConfiguration configuration, ILogger<CategoriasController> logger)
         {
             _context = context;
+            _configuration = configuration;
+            _logger = logger;
+        }
+
+        [HttpGet("LerArquivoConfiguracao")]
+        public string GetValores()
+        {
+            var valor1 = _configuration["chave1"];
+            var valor2 = _configuration["chave2"];
+
+            var secao1 = _configuration["secao1:chave2"];
+
+            return $"Chave 1 = {valor1} \nChave 2 = {valor2} \nSeção 1 = {secao1}";
+
+        }
+
+        [HttpGet("UsandoFromServices/{nome}")]
+        public ActionResult<string> GetSaudacaoFromServices([FromServices] IMeuServico meuServico, string nome)
+        {
+            return meuServico.Saudacao(nome);
+        }
+
+        [HttpGet("SemUsarFromServices/{nome}")]
+        public ActionResult<string> GetSaudacaoSemFromServices([FromServices] IMeuServico meuServico, string nome)
+        {
+            return meuServico.Saudacao(nome);
         }
 
         [HttpGet("produtos")]
         public ActionResult<IEnumerable<Categoria>> GetCategoriasProdutos()
         {
+            _logger.LogInformation("==========GET api/categorias/produtos============");
             return _context.Categorias.Include(p => p.Produtos).ToList();
         }
 
         // Indica que é uma requisição GET
         [HttpGet]
-        public ActionResult<IEnumerable<Categoria>> Get()
+        // Aplica o filtro ApiLogginFilter
+        [ServiceFilter(typeof(ApiLogginFilter))]
+        public async Task<ActionResult<IEnumerable<Categoria>>> Get()
         {
-            return _context.Categorias.ToList();
+            try
+            {
+                return await _context.Categorias.AsNoTracking().ToListAsync();
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um problema ao tratar sua solicitação0");
+            }
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]

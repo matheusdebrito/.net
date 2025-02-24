@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using APICatalogo.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
@@ -15,6 +16,8 @@ public class Produto
     [Required]
     // Diz que o tamanho da string no banco de dados é de 80 bytes
     [StringLength(80)]
+    // Usa a validation para verificar se a primeira letra é maiúscula
+    [PrimeiraLetraMaiuscula]
     public string? Nome { get; set; }
     // Diz que o tamanho da string no banco de dados é de 300 bytes
     [StringLength(300)]
@@ -30,7 +33,6 @@ public class Produto
     public DateTime DataCadastro { get; set; }
     public int CategoriaID { get; set; }
     //Propriedade de navegação que indica que produto está mapeado para categoria
-
     [JsonIgnore]
     public Categoria? Categoria { get; set; }
 }

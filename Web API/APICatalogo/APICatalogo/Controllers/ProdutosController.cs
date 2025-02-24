@@ -16,22 +16,35 @@ namespace APICatalogo.Controllers
             _context = context;
         }
 
+        // define que a url é api/produtos/primeiro
+        [HttpGet("primeiro")]
+        public ActionResult<Produto> GetPrimeiro()
+        {
+            var produto = _context.Produtos.FirstOrDefault();
+            if (produto is null)
+            {
+                return NotFound("Produto não encontrado");
+            }
+            return produto;
+        }
+
+
         // Indica que é uma requisição GET
         [HttpGet]
-        public ActionResult<IEnumerable<Produto>> Get()
+        public async Task<ActionResult<IEnumerable<Produto>>> Get()
         {
-            var produtos = _context.Produtos.ToList();
+            var produtos = _context.Produtos.AsNoTracking().ToListAsync();
             if (produtos is null)
             {
                 return NotFound("Produtos não encontrados");
             }
-            return produtos;
+            return await produtos;
         }
 
-        [HttpGet("{id:int}", Name = "ObterProduto")]
-        public ActionResult<Produto> Get(int id)
+        [HttpGet("{id:int:min(1)}", Name = "ObterProduto")]
+        public async Task<ActionResult<Produto>> Get(int id)
         {
-            var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoID == id);
+            var produto = await _context.Produtos.FirstOrDefaultAsync(p => p.ProdutoID == id);
             if (produto is null)
             {
                 return NotFound("Produto não encontrado");
@@ -56,15 +69,24 @@ namespace APICatalogo.Controllers
         [HttpPut("{id:int}")]
         public ActionResult Put(int id, Produto produto)
         {
-            if (id != produto.ProdutoID)
+            try
             {
-                return BadRequest();
+                if (id != produto.ProdutoID)
+                {
+                    return BadRequest();
+                }
+
+                _context.Entry(produto).State = EntityState.Modified;
+                _context.SaveChanges();
+
+                return Ok(produto);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Ocorreu um problema ao tratar a sua solicitação.");
             }
 
-            _context.Entry(produto).State = EntityState.Modified;
-            _context.SaveChanges();
-
-            return Ok(produto);
         }
 
         [HttpDelete("{id:int}")]

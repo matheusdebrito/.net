@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\logging\\customlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\logging\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\logging\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|c:\\users\\matheus\\documents\\github\\dotnet\\web api\\apicatalogo\\apicatalogo\\logging\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61B16568-5E31-4AFD-97F3-404D47E16A5B}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\logging\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
-              "RelativeToolTip": "APICatalogo\\Models\\Categoria.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T23:31:45.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
-              "RelativeToolTip": "APICatalogo\\Models\\Produto.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T23:27:52.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Program.cs",
               "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
               "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Program.cs",
               "RelativeToolTip": "APICatalogo\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T23:17:41.539Z",
+              "WhenOpened": "2025-02-21T23:50:26.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "APICatalogo\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CustomLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLogger.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Logging\\CustomLogger.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLogger.cs",
+              "RelativeToolTip": "APICatalogo\\Logging\\CustomLogger.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T23:01:20.219Z",
+              "WhenOpened": "2025-02-21T23:31:25.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomLoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLoggerProvider.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Logging\\CustomLoggerProvider.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLoggerProvider.cs",
+              "RelativeToolTip": "APICatalogo\\Logging\\CustomLoggerProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T23:30:55.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Title": "CustomLoggerProviderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GitHub\\DotNet\\Web API\\APICatalogo\\APICatalogo\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "RelativeToolTip": "APICatalogo\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T19:35:12.616Z",
+              "WhenOpened": "2025-02-21T23:20:09.858Z",
               "EditorCaption": ""
             }
           ]

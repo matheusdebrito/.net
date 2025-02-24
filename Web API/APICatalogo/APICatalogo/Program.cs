@@ -1,4 +1,8 @@
 using APICatalogo.Context;
+using APICatalogo.Extensions;
+using APICatalogo.Filter;
+using APICatalogo.Logging;
+using APICatalogo.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.Xml;
 using System.Text.Json.Serialization;
@@ -15,9 +19,19 @@ builder.Services.AddSwaggerGen();
 // Código para registrar o EF Core
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 
+builder.Services.AddTransient<IMeuServico, MeuServico>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseMySql(mySqlConnection,
         ServerVersion.AutoDetect(mySqlConnection)));
+
+// Logger
+builder.Services.AddScoped<ApiLogginFilter>();
+
+builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
+{
+    LogLevel = LogLevel.Information
+}));
 
 var app = builder.Build();
 
@@ -26,6 +40,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ConfigureExceptionHandler();
 }
 
 app.UseHttpsRedirection();
