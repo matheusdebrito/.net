@@ -2,6 +2,7 @@ using APICatalogo.Context;
 using APICatalogo.Extensions;
 using APICatalogo.Filter;
 using APICatalogo.Logging;
+using APICatalogo.Repositories;
 using APICatalogo.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.Xml;
@@ -24,9 +25,14 @@ builder.Services.AddTransient<IMeuServico, MeuServico>();
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseMySql(mySqlConnection,
         ServerVersion.AutoDetect(mySqlConnection)));
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 // Logger
 builder.Services.AddScoped<ApiLogginFilter>();
+
+
 
 builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
 {
